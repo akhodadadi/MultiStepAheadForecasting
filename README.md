@@ -1,7 +1,5 @@
-# MultiStepAheadForecasting
-multi-step ahead forecasting of spatio-temporal data
+# Multi-step ahead forecasting
 
-# Introduction
 The goal of this project is to investigate two aspects of multi-step-ahead forecasting of spatio-temporal data:
 
 1. *Dynamic vs static models:* we will compare the performance of several static and dynamic models. The dynamic models all have a recurrent neural network as part of their architecture. In these models, the value of the time-series in the previous time-steps is used to derive the "state" of the recurrent netwok. The output of the recurrent network, then, is augmented to other features in the data to form the full set of features. In contrast, in the static models there is no recurrent archtucture and the value of the time-series at previous time-steps are augmented directly to the other features. 
